@@ -5,7 +5,10 @@
 
 https://medium.com/@vijaygiduthuri67/deploying-netflix-clone-on-aws-using-devsecops-approach-f299c7375dbc
 
-
+# **Install trivy:**
+wget https://github.com/aquasecurity/trivy/releases/download/v0.44.1/trivy_0.44.1_Linux-64bit.tar.gz
+tar zxvf trivy_0.44.1_Linux-64bit.tar.gz
+sudo mv trivy /usr/local/bin/
 
 # **Install Jenkins on Ubuntu:**
 ![image](https://github.com/vijaygiduthuri/Netflix/assets/125960600/69e812bd-d639-409d-874b-64f501e35027)
